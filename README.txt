@@ -1,8 +1,10 @@
 DANIEL SLEIMAN PORTFOLIO
 
-1. Open index.html locally to preview.
-2. Replace the phone, email and LinkedIn placeholders in the CV and cover letter.
-3. Add your preferred contact link in the website contact section.
-4. Deploy the folder directly to Vercel, Netlify or GitHub Pages.
+See README.md for local preview, deployment, content provenance and controls.
 
-The website is a static HTML/CSS/JS build and does not require a build command.
+Run: python3 -m http.server 3000
+Then open http://localhost:3000
+
+This is a static site with no build step. Existing CV and cover-letter PDFs
+are retained. Selected architectural excerpts are in assets/; full source
+PDFs and the Revit model are deliberately not included.

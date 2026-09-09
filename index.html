@@ -1,115 +1,423 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Daniel Sleiman — Civil Engineering portfolio focused on structural and façade engineering." />
-  <title>Daniel Sleiman | Civil Engineering Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header" id="top">
-    <a class="brand" href="#top" aria-label="Daniel Sleiman home">DS<span>.</span></a>
-    <button class="menu" aria-label="Open navigation" aria-expanded="false">Menu</button>
-    <nav class="nav" aria-label="Main navigation">
-      <a href="#about">About</a><a href="#experience">Experience</a><a href="#work">Engineering</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero">
-      <div class="hero-image-stage" aria-hidden="true">
-        <div class="hero-image"></div>
-      </div>
-      <div class="hero-overlay"></div>
-      <div class="hero-content reveal">
-        <p class="eyebrow">CIVIL · STRUCTURAL · FAÇADE</p>
-        <h1>Engineering that works<br><em>on paper and on site.</em></h1>
-        <p class="hero-copy">Final-year Civil Engineering (Honours) student at UTS with 2.5+ years of structural and façade consultancy experience across design review, site inspection, testing and technical reporting.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#experience">View experience</a>
-          <a class="button ghost" href="./Daniel_Sleiman_CV.pdf" download="Daniel_Sleiman_CV.pdf">Download CV</a>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Explore Daniel Sleiman’s structural and façade engineering experience through architectural drawings, building systems and practical design thinking."
+    />
+    <meta name="theme-color" content="#152127" />
+    <title>Daniel Sleiman — From drawing to reality</title>
+    <link rel="preload" as="image" href="assets/residential.webp" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="header">
+      <a class="brand" href="#top" aria-label="Daniel Sleiman home"
+        >DS<span> / </span><small>DANIEL SLEIMAN</small></a
+      ><button class="menu" aria-expanded="false" aria-controls="navigation">
+        Menu +
+      </button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#projects">Selected work</a
+        ><a href="#perspective">Perspective</a
+        ><a href="#experience">Experience</a
+        ><a href="#contact">Let’s connect <span>↗</span></a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero" id="top" aria-label="Introduction">
+        <div class="scenes" aria-hidden="true">
+          <img
+            class="scene active"
+            src="assets/residential.webp"
+            alt=""
+            fetchpriority="high"
+            width="1800"
+            height="1020"
+          /><img class="scene" data-src="assets/skyline.webp" alt="" /><img
+            class="scene detail-scene"
+            data-src="assets/skyline.webp"
+            alt=""
+          />
         </div>
-      </div>
-      <div class="hero-stats">
-        <div><strong>2.5+</strong><span>years consultancy experience</span></div>
-        <div><strong>Final year</strong><span>Civil Engineering (Honours), UTS</span></div>
-        <div><strong>Site + design</strong><span>practical and technical exposure</span></div>
-      </div>
-    </section>
-
-    <section class="section intro" id="about">
-      <div class="section-label">01 / ABOUT</div>
-      <div class="intro-grid">
-        <h2>I learn fastest when the engineering has a real consequence.</h2>
-        <div>
-          <p>I am a final-year civil engineering student with a strong interest in structural and façade engineering. Working in consultancy while studying has given me an early understanding of how design decisions affect constructability, compliance and long-term building performance.</p>
-          <p>My experience has included structural assessments, façade and weatherproofing reviews, site inspections, water testing, technical reporting and coordination with architects, builders and suppliers. I want to keep developing in roles that combine rigorous technical work with practical project involvement.</p>
+        <div class="hero-shade"></div>
+        <div class="hero-top mono">
+          <span>STRUCTURAL + FAÇADE ENGINEERING</span
+          ><span>SYDNEY, AUSTRALIA / 2026</span>
         </div>
-      </div>
-    </section>
-
-    <section class="section dark" id="experience">
-      <div class="section-label light">02 / EXPERIENCE</div>
-      <div class="timeline">
-        <article class="timeline-item reveal">
-          <div class="time">2024 — PRESENT</div>
-          <div><h3>Junior Structural / Façade Engineer</h3><p class="company">Structural & Façade Consultancy</p>
-          <p>Building-envelope reviews, structural checks, shop-drawing reviews, site inspections, water testing, technical reports and coordination with project teams.</p></div>
-        </article>
-        <article class="timeline-item reveal">
-          <div class="time">PREVIOUS</div>
-          <div><h3>Leading Hand</h3><p class="company">Catalyst Construction</p>
-          <p>Practical construction exposure, drawing interpretation, site coordination, sequencing, workmanship and problem solving.</p></div>
-        </article>
-        <article class="timeline-item reveal">
-          <div class="time">PREVIOUS</div>
-          <div><h3>Online Team Leader</h3><p class="company">Woolworths Parramatta</p>
-          <p>Team supervision, daily priorities, quality expectations, training and performance under changing operational demand.</p></div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="work">
-      <div class="section-label">03 / ENGINEERING EXPOSURE</div>
-      <div class="cards">
-        <article class="card reveal"><span>01</span><h3>Façade & Weatherproofing</h3><p>Reviewing glazing, façade interfaces, sealants, drainage paths, cladding and weatherproofing details with a focus on continuity and durability.</p></article>
-        <article class="card reveal"><span>02</span><h3>Structural Assessment</h3><p>Assisting with member, glazing, aluminium and connection checks, interpreting applied loads and translating results into practical design decisions.</p></article>
-        <article class="card reveal"><span>03</span><h3>Site Inspection & Testing</h3><p>Inspecting installed work, supporting window and façade water testing, identifying defects and documenting rectification requirements.</p></article>
-        <article class="card reveal"><span>04</span><h3>Technical Coordination</h3><p>Working across drawings, reports, test data and project correspondence while coordinating issues with engineers, architects, contractors and suppliers.</p></article>
-      </div>
-    </section>
-
-    <section class="section skill-section" id="skills">
-      <div class="section-label">04 / CAPABILITY</div>
-      <div class="skill-grid">
-        <div><h2>Technical judgement built through repetition, review and site feedback.</h2></div>
-        <div class="skill-list">
-          <div><b>Engineering</b><span>Structural assessment · Façade engineering · Glazing · Aluminium · Connections · Weatherproofing</span></div>
-          <div><b>Codes</b><span>NCC · Australian Standards · AS 1288 · AS/NZS 1170 series exposure</span></div>
-          <div><b>Documentation</b><span>Calculations · Technical reports · Shop-drawing reviews · Mark-ups · Inspection records</span></div>
-          <div><b>Tools</b><span>Bluebeam Revu · Microsoft Excel / Office · WUFI exposure · structured document control</span></div>
+        <div class="hero-content">
+          <p class="eyebrow">DANIEL SLEIMAN · ENGINEERING PORTFOLIO</p>
+          <h1>From drawing<br />to <em>reality.</em></h1>
+          <div class="hero-bottom">
+            <p>Understanding the detail.<br />Seeing the whole building.</p>
+            <a href="#projects" class="round-link"
+              ><span>Explore my work</span><b aria-hidden="true">↘</b></a
+            >
+          </div>
         </div>
-      </div>
-    </section>
-
-    <section class="quote-section">
-      <blockquote>“A technically correct answer is only useful if it can be built, understood and defended.”</blockquote>
-    </section>
-
-    <section class="section contact" id="contact">
-      <div class="section-label">05 / CONTACT</div>
-      <div class="contact-grid">
-        <div><h2>Open to graduate engineering opportunities in Sydney.</h2><p>Structural, façade, building engineering and project-focused roles where technical work stays connected to construction.</p></div>
-        <div class="contact-actions">
-          <a class="button primary darkbtn" href="./Daniel_Sleiman_Industrus_Cover_Letter.pdf" download="Daniel_Sleiman_Industrus_Cover_Letter.pdf">Download cover letter</a>
-          <a class="button outline" href="./Daniel_Sleiman_CV.pdf" download="Daniel_Sleiman_CV.pdf">Download CV</a>
-          
+        <div class="scene-bar">
+          <span id="scene-caption"
+            >01 / RESIDENTIAL — ARCHITECTURAL VISUALISATION</span
+          >
+          <div class="scene-controls">
+            <button
+              data-scene="0"
+              aria-label="Show residential scene"
+              aria-pressed="true"
+            >
+              01</button
+            ><button
+              data-scene="1"
+              aria-label="Show skyline scene"
+              aria-pressed="false"
+            >
+              02</button
+            ><button
+              data-scene="2"
+              aria-label="Show façade detail scene"
+              aria-pressed="false"
+            >
+              03</button
+            ><button id="motion" aria-label="Pause cinematic motion">Ⅱ</button>
+          </div>
         </div>
+      </section>
+      <section class="intro section" id="about">
+        <div class="section-marker">01 / THE ENGINEER</div>
+        <div class="intro-grid">
+          <h2>
+            Early in my career.<br /><span
+              >Already close to<br />the work.</span
+            >
+          </h2>
+          <div>
+            <p class="lead">
+              I’m Daniel, a final-year Civil Engineering (Honours) student at
+              UTS, with approximately 2.5 years in structural and façade
+              consultancy.
+            </p>
+            <p>
+              From reviewing a glazing detail to seeing how it is installed, my
+              experience connects engineering intent with construction reality.
+              I have assisted with assessments, drawing reviews, inspections,
+              water testing and technical reporting.
+            </p>
+            <a class="text-link" href="Daniel_Sleiman_CV.pdf" download
+              >Read my CV <span>↗</span></a
+            >
+          </div>
+        </div>
+        <div class="facts">
+          <div>
+            <strong>2.5 <small>years</small></strong
+            ><span>CONSULTANCY EXPERIENCE</span>
+          </div>
+          <div>
+            <strong>Design + site</strong><span>CONNECTED EXPERIENCE</span>
+          </div>
+          <div>
+            <strong>UTS <small>Honours</small></strong
+            ><span>FINAL-YEAR CIVIL ENGINEERING</span>
+          </div>
+        </div>
+      </section>
+      <section class="projects section" id="projects">
+        <div class="section-marker">02 / SELECTED PROJECT EXPLORATIONS</div>
+        <div class="section-heading">
+          <h2>Enter the project.</h2>
+          <p>
+            Follow the drawing. Explore the interfaces.<br />See the questions
+            behind the façade.
+          </p>
+        </div>
+        <div class="project-grid">
+          <button class="project-card wide" data-project="0">
+            <div class="card-image">
+              <img
+                src="assets/residential.webp"
+                width="1800"
+                height="1020"
+                loading="lazy"
+                alt="Architectural visualisation of a terraced residential building"
+              /><span class="enter">Enter project ↗</span>
+            </div>
+            <div class="card-meta">
+              <span class="mono">01 / RESIDENTIAL</span>
+              <h3>Terraces & thresholds</h3>
+              <span>Glazing · Balconies · Water management</span>
+            </div>
+          </button>
+          <button class="project-card" data-project="1">
+            <div class="card-image pale">
+              <img
+                src="assets/commercial-model.webp"
+                loading="lazy"
+                width="1800"
+                height="1000"
+                alt="Axonometric drawing of a commercial building with glazed façade and roof terraces"
+              /><span class="enter">Enter project ↗</span>
+            </div>
+            <div class="card-meta">
+              <span class="mono">02 / COMMERCIAL</span>
+              <h3>The façade interface</h3>
+              <span>Framing · Glazing · Roof terraces</span>
+            </div>
+          </button>
+          <button class="project-card" data-project="2">
+            <div class="card-image drawing-card">
+              <img
+                src="assets/hospitality-plan.webp"
+                loading="lazy"
+                width="2600"
+                height="1300"
+                alt="Coordinated architectural plan of a hospitality development"
+              /><span class="enter">Enter project ↗</span>
+            </div>
+            <div class="card-meta">
+              <span class="mono">03 / HOSPITALITY</span>
+              <h3>Coordinating complexity</h3>
+              <span>Zones · Interfaces · Construction coordination</span>
+            </div>
+          </button>
+        </div>
+        <p class="fine">
+          Selected architectural material from projects I have assisted with.
+          Hotspots explain review considerations; they do not represent
+          certified designs or claim responsibility for every element shown.
+        </p>
+      </section>
+      <section class="perspective" id="perspective">
+        <div class="section perspective-inner">
+          <div class="section-marker">03 / AN ENGINEERING PERSPECTIVE</div>
+          <div class="section-heading">
+            <h2>How I see<br />the building.</h2>
+            <p>
+              One building. Interacting systems.<br />Select a lens to see what
+              comes into focus.
+            </p>
+          </div>
+          <div class="perspective-grid">
+            <div class="model-stage">
+              <img
+                src="assets/residential-model.webp"
+                alt="Supplied axonometric residential building view"
+                loading="lazy"
+                width="1184"
+                height="1019"
+              /><svg viewBox="0 0 1184 1019" aria-hidden="true">
+                <g id="lens-overlay"></g></svg
+              ><span class="model-note mono"
+                >SUPPLIED MODEL VIEW / CONCEPTUAL OVERLAYS</span
+              >
+            </div>
+            <div class="lens-panel">
+              <div class="lens-buttons" aria-label="Building review lens">
+                <button data-lens="architecture" aria-pressed="true">
+                  01 <span>Architecture</span> ↗</button
+                ><button data-lens="facade" aria-pressed="false">
+                  02 <span>Façade</span> ↗</button
+                ><button data-lens="glazing" aria-pressed="false">
+                  03 <span>Glazing</span> ↗</button
+                ><button data-lens="structure" aria-pressed="false">
+                  04 <span>Structure</span> ↗</button
+                ><button data-lens="water" aria-pressed="false">
+                  05 <span>Water management</span> ↗
+                </button>
+              </div>
+              <div class="lens-copy" aria-live="polite">
+                <span class="mono" id="lens-label">THE WHOLE BUILDING</span>
+                <h3 id="lens-title">Start with design intent.</h3>
+                <p id="lens-text">
+                  The form, openings and terraces establish the context.
+                  Engineering review connects these architectural decisions to
+                  support, weathering and construction.
+                </p>
+              </div>
+              <a class="text-link" href="#projects"
+                >Explore the drawings <span>↗</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section experience" id="experience">
+        <div class="section-marker">04 / FROM DRAWING TO REALITY</div>
+        <div class="section-heading">
+          <h2>Good details need<br />a complete process.</h2>
+          <p>
+            My consultancy exposure spans the drawing,<br />the review and the
+            work on site.
+          </p>
+        </div>
+        <div class="process" aria-label="Engineering process"></div>
+        <div class="process-detail" aria-live="polite">
+          <span class="mono" id="process-number">01 / DESIGN INTENT</span>
+          <h3 id="process-title">
+            Understand what the building is trying to do.
+          </h3>
+          <p id="process-copy">
+            Read the architectural and structural information together. Identify
+            interfaces, drawing discrepancies and the information needed to
+            progress a review.
+          </p>
+        </div>
+        <div class="roles">
+          <article>
+            <span class="mono">CURRENT / CONSULTANCY</span>
+            <h3>Junior Structural /<br />Façade Engineer</h3>
+            <p>
+              Assisting with structural and façade assessments, glazing and
+              aluminium checks, shop-drawing reviews, weatherproofing, site
+              inspections, water testing and reporting.
+            </p>
+          </article>
+          <article>
+            <span class="mono">PREVIOUS / CONSTRUCTION</span>
+            <h3>Leading Hand</h3>
+            <p>Catalyst Construction</p>
+            <p>
+              Drawing interpretation, site coordination, sequencing and
+              workmanship. Practical exposure that shapes the questions I bring
+              back to a drawing.
+            </p>
+          </article>
+          <article>
+            <span class="mono">PREVIOUS / LEADERSHIP</span>
+            <h3>Online Team Leader</h3>
+            <p>Woolworths Parramatta</p>
+            <p>
+              Team supervision, training and daily priorities. Learning to
+              communicate clearly when conditions change.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="capabilities section" id="capabilities">
+        <div class="section-marker">05 / PRACTICAL CAPABILITY</div>
+        <div class="cap-grid">
+          <h2>Experience,<br /><span>in the detail.</span></h2>
+          <div id="capability-list"></div>
+        </div>
+      </section>
+      <section class="contact section" id="contact">
+        <div class="section-marker">06 / WHAT COMES NEXT</div>
+        <p class="eyebrow">
+          OPEN TO GRADUATE ENGINEERING OPPORTUNITIES · SYDNEY
+        </p>
+        <h2>Let’s build<br /><em>what’s next.</em></h2>
+        <div class="contact-bottom">
+          <p>
+            Structural and façade engineering.<br />Technical thinking, grounded
+            in construction.
+          </p>
+          <div>
+            <a class="button" href="Daniel_Sleiman_CV.pdf" download
+              >Download CV ↗</a
+            ><a
+              class="text-link"
+              href="Daniel_Sleiman_Industrus_Cover_Letter.pdf"
+              download
+              >Download cover letter ↗</a
+            ><span class="fine">Cover letter addressed to Industrus.</span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <a class="brand" href="#top">DS<span>.</span></a
+      ><span>Daniel Sleiman / Engineering portfolio</span
+      ><a href="#top">Back to top ↑</a>
+    </footer>
+    <dialog id="project-dialog" aria-labelledby="project-title">
+      <div class="project-shell">
+        <header class="explorer-header">
+          <span class="mono" id="project-index"></span
+          ><button id="close-project" autofocus>Exit project ×</button>
+        </header>
+        <div class="explorer-title">
+          <h2 id="project-title"></h2>
+          <p id="project-summary"></p>
+        </div>
+        <div class="explorer-grid">
+          <div class="drawing-column">
+            <div
+              class="viewer-tabs"
+              id="drawing-tabs"
+              aria-label="Drawing views"
+            ></div>
+            <div
+              id="viewport"
+              class="viewport"
+              tabindex="0"
+              role="region"
+              aria-label="Interactive drawing. Drag to pan, use plus and minus to zoom, arrows to pan, zero to reset."
+            >
+              <div id="drawing-plane">
+                <img id="drawing-image" alt="" draggable="false" /><svg
+                  id="drawing-zones"
+                  viewBox="0 0 100 100"
+                  preserveAspectRatio="none"
+                  aria-hidden="true"
+                ></svg>
+                <div id="hotspots"></div>
+              </div>
+              <span class="viewer-hint">DRAG TO PAN · PINCH TO ZOOM</span>
+              <div class="zoom-controls">
+                <button id="zoom-out" aria-label="Zoom out">−</button
+                ><output id="zoom-value">100%</output
+                ><button id="zoom-in" aria-label="Zoom in">+</button
+                ><button id="zoom-reset">Reset</button
+                ><button id="drawing-theme" aria-pressed="false">
+                  Dark drawing
+                </button>
+              </div>
+            </div>
+            <p class="fine" id="drawing-source"></p>
+            <div
+              class="layer-controls"
+              id="layer-controls"
+              aria-label="Drawing layers"
+            ></div>
+          </div>
+          <aside class="inspector">
+            <span class="eyebrow" id="inspector-label">PROJECT OVERVIEW</span>
+            <h3 id="inspector-title"></h3>
+            <p id="inspector-text"></p>
+            <div id="hotspot-list"></div>
+            <div class="walkthrough">
+              <button class="button" id="start-story">
+                Start guided walkthrough ↗
+              </button>
+              <div id="story-controls" hidden>
+                <span
+                  id="story-progress"
+                  class="mono"
+                  aria-live="polite"
+                ></span>
+                <div>
+                  <button id="story-back">← Back</button
+                  ><button id="story-next">Next →</button>
+                </div>
+                <button id="story-exit">Exit walkthrough</button>
+              </div>
+            </div>
+            <p class="fine">
+              A review lens on supplied drawings. Project-specific
+              responsibilities and outcomes are not inferred from architectural
+              material.
+            </p>
+          </aside>
+        </div>
+        <footer class="project-footer">
+          <button id="previous-project">← Previous project</button
+          ><span class="mono">LOOK CLOSER. SEE THE CONNECTIONS.</span
+          ><button id="next-project">Next project →</button>
+        </footer>
       </div>
-    </section>
-  </main>
-  <footer><span>Daniel Sleiman</span><span>Civil Engineering Portfolio · Sydney, NSW</span></footer>
-  <script src="script.js"></script>
-</body>
+    </dialog>
+    <script src="script.js" defer></script>
+  </body>
 </html>
